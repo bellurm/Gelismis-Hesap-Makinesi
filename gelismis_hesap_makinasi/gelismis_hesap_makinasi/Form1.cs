@@ -140,25 +140,25 @@ namespace gelismis_hesap_makinasi
                 textBox1.Text = sonuc.ToString();
                 ListBox1.Items.Add(sayi1 + " + " + sayi2 + " = " + sonuc);
             }
-            if (secim == 2)
+            else if (secim == 2)
             {
                 sonuc = sayi1 - sayi2;
                 textBox1.Text = sonuc.ToString();
                 ListBox1.Items.Add(sayi1 + " - " + sayi2 + " = " + sonuc);
             }
-            if (secim == 3)
+            else if (secim == 3)
             {
                 sonuc = sayi1 * sayi2;
                 textBox1.Text = sonuc.ToString();
                 ListBox1.Items.Add(sayi1 + " x " + sayi2 + " = " + sonuc);
             }
-            if (secim == 4)
+            else if (secim == 4)
             {
                 sonuc = sayi1 / sayi2;
                 textBox1.Text = sonuc.ToString("0.00");
                 ListBox1.Items.Add(sayi1 + " / " + sayi2 + " = " + sonuc);
             }
-            if (secim == 8)
+            else if (secim == 8)
             {
                 sonuc = (sayi1 / 100);
                 yuzde_sayi = sonuc * sayi2;
@@ -173,39 +173,39 @@ namespace gelismis_hesap_makinasi
             {
                 btn_0.PerformClick();
             }
-            if (e.KeyCode == Keys.NumPad1 || e.KeyCode == Keys.D1)
+            else if (e.KeyCode == Keys.NumPad1 || e.KeyCode == Keys.D1)
             {
                 btn_1.PerformClick();
             }
-            if (e.KeyCode == Keys.NumPad2 || e.KeyCode == Keys.D2)
+            else if (e.KeyCode == Keys.NumPad2 || e.KeyCode == Keys.D2)
             {
                 btn_2.PerformClick();
             }
-            if (e.KeyCode == Keys.NumPad3 || e.KeyCode == Keys.D3)
+            else if (e.KeyCode == Keys.NumPad3 || e.KeyCode == Keys.D3)
             {
                 btn_3.PerformClick();
             }
-            if (e.KeyCode == Keys.NumPad4 || e.KeyCode == Keys.D4)
+            else if (e.KeyCode == Keys.NumPad4 || e.KeyCode == Keys.D4)
             {
                 btn_4.PerformClick();
             }
-            if (e.KeyCode == Keys.NumPad5 || e.KeyCode == Keys.D5)
+            else if (e.KeyCode == Keys.NumPad5 || e.KeyCode == Keys.D5)
             {
                 btn_5.PerformClick();
             }
-            if (e.KeyCode == Keys.NumPad6 || e.KeyCode == Keys.D6)
+            else if (e.KeyCode == Keys.NumPad6 || e.KeyCode == Keys.D6)
             {
                 btn_6.PerformClick();
             }
-            if (e.KeyCode == Keys.NumPad7 || e.KeyCode == Keys.D7)
+            else if (e.KeyCode == Keys.NumPad7 || e.KeyCode == Keys.D7)
             {
                 btn_7.PerformClick();
             }
-            if (e.KeyCode == Keys.NumPad8 || e.KeyCode == Keys.D8)
+            else if (e.KeyCode == Keys.NumPad8 || e.KeyCode == Keys.D8)
             {
                 btn_8.PerformClick();
             }
-            if (e.KeyCode == Keys.NumPad9 || e.KeyCode == Keys.D9)
+            else if (e.KeyCode == Keys.NumPad9 || e.KeyCode == Keys.D9)
             {
                 btn_9.PerformClick();
             }
